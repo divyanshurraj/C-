@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+int cube(int n){
+    int ans = 1;
+    for(int i=1;i<=3;i++){
+        ans = ans*n;
+    }
+    return ans;
+}
+int main(){
+   int n,c;
+   cin>>n;
+   c = cube(n); 
+   cout<<"Cube of the number is : "<<c;
+}
