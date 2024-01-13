@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+  int square(int a,int b){
+        for(int i=1;(i<b) && (b>0);i++){
+            a=a*a;
+        }
+        return a;
+  }
+int main(){
+    int a,c;
+    int b = 2;
+    cin>>a;
+    c = square(a,b);
+    cout<<c;
+
+}
